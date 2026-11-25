@@ -5,7 +5,7 @@
     "gsi-photo": {
       "type": "raster",
       "tiles": [
-        "https://gsi.go.jp{z}/{x}/{y}.jpg"
+        "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg"
       ],
       "tileSize": 256,
       "attribution": "国土地理院"
