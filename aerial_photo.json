@@ -1,0 +1,23 @@
+{
+  "version": 8,
+  "name": "GSI Photo Custom",
+  "sources": {
+    "gsi-photo": {
+      "type": "raster",
+      "tiles": [
+        "https://gsi.go.jp{z}/{x}/{y}.jpg"
+      ],
+      "tileSize": 256,
+      "attribution": "国土地理院"
+    }
+  },
+  "layers": [
+    {
+      "id": "gsi-photo-layer",
+      "type": "raster",
+      "source": "gsi-photo",
+      "minzoom": 2,
+      "maxzoom": 18
+    }
+  ]
+}
